@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "kimetu_no_yaiba:blocks/hisatetu_block"
+   }
+}

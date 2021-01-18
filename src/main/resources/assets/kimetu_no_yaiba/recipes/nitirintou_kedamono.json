@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern": [
+    "X #",
+    "X  ",
+    "|  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "X": {
+      "item": "kimetu_no_yaiba:tamahagane"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kimetu_no_yaiba:nitirintou_kedamono"
+  }
+}

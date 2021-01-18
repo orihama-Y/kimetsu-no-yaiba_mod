@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"溶岩入りバケツを入手する",
+        "description":"溶岩入りバケツを入手しよう",
+        "icon": {
+            "item": "minecraft:lava_bucket"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task1",
+    "criteria": {
+        "has_bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "minecraft:lava_bucket"}
+                ]
+            }
+        }
+    }
+}

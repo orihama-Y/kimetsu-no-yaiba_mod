@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"日輪刀を入手する",
+        "description":"溶岩入りバケツで炎属性の日輪刀が作れる",
+        "icon": {
+            "item": "kimetu_no_yaiba:nitirintou_honoo"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task2-4",
+    "criteria": {
+        "has_nitirintou_honoo": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:nitirintou_honoo"}
+                ]
+            }
+        }
+    }
+}

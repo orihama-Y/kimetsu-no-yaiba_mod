@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"骨を入手する",
+        "description":"骨を入手しよう",
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task1",
+    "criteria": {
+        "has_bone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "minecraft:bone"}
+                ]
+            }
+        }
+    }
+}

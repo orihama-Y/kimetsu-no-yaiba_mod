@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"ダイヤを入手する",
+        "description":"ダイヤを見つけよう",
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task1",
+    "criteria": {
+        "has_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "minecraft:diamond"}
+                ]
+            }
+        }
+    }
+}

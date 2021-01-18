@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "鬼滅の刃mod",
+        "description": "日輪刀を手に入れ、鬼を倒せ",
+        "icon": {
+            "item":"minecraft:writable_book"
+        },
+        "background": "minecraft:textures/colormap/foliage.png",
+        "frame": "task"
+    },
+    "criteria": {
+        "has_crafting_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "minecraft:crafting_table"}
+                ]
+            }
+        }
+    }
+}

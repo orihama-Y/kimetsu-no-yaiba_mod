@@ -1,0 +1,75 @@
+{
+	"kasumi_sound": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "kimetu_no_yaiba:kasumi_sound",
+				"stream": false
+			}
+		]
+	},
+	"oboro_sound": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "kimetu_no_yaiba:oboro_sound",
+                "stream": false
+            }
+        ]
+    },
+    "nagi_sound": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "kimetu_no_yaiba:nagi_sound",
+                "stream": false
+            }
+        ]
+    },
+	"takitubo_sound": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "kimetu_no_yaiba:takitubo_sound",
+				"stream": false
+			}
+		]
+	},
+	"kanten_sound": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "kimetu_no_yaiba:kanten_sound",
+                "stream": false
+            }
+        ]
+    },
+    "minamo_sound": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "kimetu_no_yaiba:minamo_sound",
+                "stream": false
+            }
+        ]
+    },
+    "enten_sound": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "kimetu_no_yaiba:enten_sound",
+                "stream": false
+            }
+        ]
+    },
+    "siranui_sound": {
+        "category": "ambient",
+        "sounds": [
+            {
+                "name": "kimetu_no_yaiba:siranui_sound",
+                "stream": false
+            }
+        ]
+    }
+
+}

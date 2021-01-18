@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"日輪刀を入手する",
+        "description":"ダイヤモンドで水属性の日輪刀が作れる",
+        "icon": {
+            "item": "kimetu_no_yaiba:nitirintou_mizu"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task2-1",
+    "criteria": {
+        "has_nitirintou_mizu": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:nitirintou_mizu"}
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "月の呼吸の使い手",
+        "description": "黒死牟の日輪刀を入手する",
+        "icon": {
+            "item":"kimetu_no_yaiba:nitirintou_tuki"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/oni_3",
+    "criteria": {
+        "has_Taihuku_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:nitirintou_tuki"}
+                ]
+            }
+        }
+    }
+}

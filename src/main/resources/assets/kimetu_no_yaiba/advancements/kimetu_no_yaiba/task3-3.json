@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"日輪刀を入手する",
+        "description":"骨で獣属性の日輪刀が作れる",
+        "icon": {
+            "item": "kimetu_no_yaiba:nitirintou_kedamono"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task2-3",
+    "criteria": {
+        "has_nitirintou_kedamono": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:nitirintou_kedamono"}
+                ]
+            }
+        }
+    }
+}

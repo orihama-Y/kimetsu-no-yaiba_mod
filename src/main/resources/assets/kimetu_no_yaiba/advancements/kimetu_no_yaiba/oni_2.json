@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": "鬼殺隊入隊",
+        "description": "隊服着用時は「常中」効果を得られる",
+        "icon": {
+            "item":"kimetu_no_yaiba:Taihuku_chest"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/oni",
+    "criteria": {
+        "has_Taihuku_chest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:Taihuku_chest"}
+                ]
+            }
+        },
+        "has_Taihuku_feet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:Taihuku_feet"}
+                ]
+            }
+        },
+        "has_Taihuku_leggings": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:Taihuku_leggings"}
+                ]
+            }
+        }
+    }
+}

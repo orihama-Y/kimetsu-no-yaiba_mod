@@ -1,0 +1,12 @@
+{
+    "type":"minecraft:crafting_shaped",
+    "pattern":["X #","X  ","A  "],
+
+    "key": {
+    "#": {"item": "minecraft:lava_bucket"},
+    "X": {"item": "kimetu_no_yaiba:tamahagane"},
+    "A": {"item": "minecraft:stick"}
+    },
+
+    "result": {"item": "kimetu_no_yaiba:nitirintou_honoo"}
+}

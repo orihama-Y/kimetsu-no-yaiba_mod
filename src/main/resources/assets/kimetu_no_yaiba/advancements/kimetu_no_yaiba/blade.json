@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": "刀の材料探し",
+        "description": "猩々緋砂鉄と猩々緋鉱石を入手する",
+        "icon": {
+            "item":"kimetu_no_yaiba:hikouseki_item"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/root",
+    "criteria": {
+        "has_hikouseki_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:hikouseki_item"}
+                ]
+            }
+        },
+        "has_hisatetu_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:hisatetu_item"}
+                ]
+            }
+        }
+    }
+}

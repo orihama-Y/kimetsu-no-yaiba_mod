@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":
+    {
+        "layer0": "kimetu_no_yaiba:items/hisatetu_item"
+    }
+}

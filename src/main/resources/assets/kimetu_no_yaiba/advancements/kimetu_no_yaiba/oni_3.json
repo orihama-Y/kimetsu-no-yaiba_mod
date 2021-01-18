@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "黒死牟討伐",
+        "description": "黒死牟を討伐する",
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/root",
+    "criteria": {
+        "kimetu_no_yaiba_teoni": {
+             "trigger": "minecraft:player_killed_entity",
+             "conditions": {
+             "entity": {
+                "type": "minecraft:kokushibou"
+            }
+        }
+    }
+    }
+}
+

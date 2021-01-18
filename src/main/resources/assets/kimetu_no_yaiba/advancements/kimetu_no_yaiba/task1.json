@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title": "玉鋼を入手",
+        "description": "刀の材料「玉鋼」を制作しよう",
+        "icon": {
+            "item": "kimetu_no_yaiba:tamahagane"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/blade",
+    "criteria": {
+        "has_tamahagane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "kimetu_no_yaiba:tamahagane"}
+                ]
+            }
+        }
+    }
+}

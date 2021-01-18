@@ -1,0 +1,21 @@
+{
+    "display": {
+        "title":"金を入手する",
+        "description":"金を見つけて精錬しよう",
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "task"
+    },
+    "parent": "kimetu_no_yaiba:kimetu_no_yaiba/task1",
+    "criteria": {
+        "has_gold_ore": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                {"item": "minecraft:gold_ingot"}
+                ]
+            }
+        }
+    }
+}
